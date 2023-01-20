@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const port = process.env.PORT;
 const app = express();
-const MONGODB_URI = 'mongodb://localhost/Agumentik'
+const MONGODB_URI = "mongodb+srv://Naman:jqgklUCDwuEYcbDG@cluster0.pzu0fde.mongodb.net/?retryWrites=true&w=majority"//'mongodb://localhost/Agumentik'
 const AdminController = require('./controller/AdminController')
 const LeadController = require('./controller/LeadController')
 const PageDataController = require('./controller/PageDataController')
