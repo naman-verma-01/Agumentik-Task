@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const express = require('express')
-const port = process.env.PORT || 1800;
+const port = process.env.PORT;
 const app = express();
 const MONGODB_URI = 'mongodb://localhost/Agumentik'
 const AdminController = require('./controller/AdminController')
